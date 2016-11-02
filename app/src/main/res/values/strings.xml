@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DecisionMakingApplication</string>
+    <string name="plus">+</string>
+    <string name="del">Delete</string>
+    <string name="roul">Roullete!</string>
+    <string name="AddDE">Add decisions</string>
+</resources>

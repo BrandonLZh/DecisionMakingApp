@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_decision_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.brandonzhu.decisionmakingapplication.DecisionMenu">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation = "vertical"
+        android:layout_weight = "1"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+            <Button
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:text = "@string/plus"
+                android:textColor="#00BFFF"
+                android:onClick = "moreD"
+                android:id = "@+id/adding"
+                android:background ="@drawable/buttoncolors"
+                >
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "@string/del"
+                android:textColor="#00BFFF"
+                android:layout_weight= "1"
+                android:onClick = "dele"
+                android:id = "@+id/sub"
+                android:background ="@drawable/buttoncolors"
+                >
+            </Button>
+
+            <Button
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:text = "@string/roul"
+                android:textColor="#00BFFF"
+                android:layout_weight="1"
+                android:onClick = "RusR"
+                android:id = "@+id/spin"
+                android:background ="@drawable/buttoncolors"
+                >
+            </Button>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/AddDE"
+            android:id = "@+id/ado"
+            android:gravity="center"
+            android:textSize="20sp"
+            />
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>
