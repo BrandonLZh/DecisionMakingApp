@@ -1,4 +1,4 @@
-package com.example.brandonzhu.decisionmakingapplication;
+package com.example.brandonzhu.decisionmakingapplication.userinput;
 
 import android.app.Dialog;
 import android.content.DialogInterface;
@@ -20,6 +20,8 @@ import android.content.Context;
 import android.view.View;
 import android.widget.Toast;
 
+import com.example.brandonzhu.decisionmakingapplication.R;
+
 public class DecisionMenu extends AppCompatActivity {
 
     public ArrayList<String> storeDec = new ArrayList<String>();
@@ -33,6 +35,14 @@ public class DecisionMenu extends AppCompatActivity {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_decision_menu);
     }
+
+
+    @Override
+    protected void onStart(){
+        super.onStart();
+
+    }
+
 
     //return something from the dialog
     public void adddesc(){
@@ -84,21 +94,17 @@ public class DecisionMenu extends AppCompatActivity {
     }
 
 
-
-
     //Button for adding decisions
-    public void moreD(View v){
+    public void moreDecisions(View v){
        // choices.setText("");
         adddesc();  //Dialog box will appear
 
-       }
-
+    }
 
 
 
     //A dialog box for the delete button
     public void dele(View v){
-
 
 
         if (storeDec.isEmpty()){

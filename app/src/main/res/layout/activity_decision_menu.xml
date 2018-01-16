@@ -4,7 +4,7 @@
     android:id="@+id/activity_decision_menu"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.brandonzhu.decisionmakingapplication.DecisionMenu">
+    tools:context="com.example.brandonzhu.decisionmakingapplication.userinput.DecisionMenu">
 
 
     <LinearLayout
@@ -24,7 +24,7 @@
                 android:layout_height = "wrap_content"
                 android:text = "@string/plus"
                 android:textColor="#00BFFF"
-                android:onClick = "moreD"
+                android:onClick = "moreDecisions"
                 android:id = "@+id/adding"
                 android:background ="@drawable/buttoncolors"
                 >
