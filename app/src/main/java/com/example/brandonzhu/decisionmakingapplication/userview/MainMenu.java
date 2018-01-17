@@ -1,4 +1,4 @@
-package com.example.brandonzhu.decisionmakingapplication.userinput;
+package com.example.brandonzhu.decisionmakingapplication.userview;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;

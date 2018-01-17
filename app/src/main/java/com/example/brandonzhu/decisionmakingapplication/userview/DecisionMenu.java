@@ -1,8 +1,7 @@
-package com.example.brandonzhu.decisionmakingapplication.userinput;
+package com.example.brandonzhu.decisionmakingapplication.userview;
 
 import android.app.Dialog;
 import android.content.DialogInterface;
-import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,14 +9,11 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.TextView;
-import java.lang.reflect.Array;
+
 import java.util.ArrayList;
 import java.util.Random;
 
-import android.content.Context;
-import android.view.View;
 import android.widget.Toast;
 
 import com.example.brandonzhu.decisionmakingapplication.R;
